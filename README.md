@@ -235,8 +235,6 @@ MIT License - see LICENSE file for details
 
 ## Author & Project
 
-**Created by NX1X** - Infrastructure & DevOps Engineer
-
 This project is part of the **NXTools Collection** - a suite of open-source tools for infrastructure automation and monitoring.
 
 ### NXTools Collection
