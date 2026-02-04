@@ -1,0 +1,45 @@
+{
+  "attachments": [
+    {
+      "color": "warning",
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "🔔 {{ title }}"
+          }
+        },
+        {
+          "type": "section",
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*Severity:*\n🔴 `{{ severity }}`"
+            },
+            {
+              "type": "mrkdwn",
+              "text": "*Node:*\n🖥️ {{ fields.hostname }}"
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "{{ message }}"
+          }
+        },
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "📋 Type: {{ fields.type }} | ⏰ Time: <!date^{{ timestamp }}^{date_short_pretty} {time}|{{ timestamp }}>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
