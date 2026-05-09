@@ -1,7 +1,7 @@
 # Proxmox Cluster Slack Monitoring
 
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Proxmox](https://img.shields.io/badge/Proxmox-VE%207%2F8-orange.svg)
 [![Slack](https://custom-icon-badges.demolab.com/badge/Slack-4A154B?logo=slack&logoColor=fff)](#)
 ![Bash](https://img.shields.io/badge/bash-5.0%2B-green.svg)
@@ -231,7 +231,7 @@ The script runs on your cluster manager node and:
 
 ## License
 
-MIT License - see LICENSE file for details
+Apache License 2.0 - see LICENSE file for details
 
 ## Author & Project
 
